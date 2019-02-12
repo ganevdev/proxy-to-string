@@ -19,7 +19,7 @@ proxyToString({
   port: '8080',
   login: 'superLogin',
   password: 'superPassword'
-  })
+ })
 
 // return this:
 'https://123.123.2.42:8080@superLogin:superPassword'
@@ -36,7 +36,7 @@ proxyToString({
   login: 'superLogin',
   password: 'superPassword',
   loginPassFirst: true
-  })
+ })
 
 // return this:
 'https://superLogin:superPassword@123.123.2.42:8080'
@@ -50,7 +50,7 @@ proxyToString({
   protocol: 'https',
   loginPassword: 'superLogin:superPassword',
   ipAddressPort: '123.123.2.42:8080',
-  })
+ })
 
 // return this:
 'https://123.123.2.42:8080@superLogin:superPassword'
@@ -63,7 +63,7 @@ const proxyToString = require('proxy-to-string')
 proxyToString({
   ipAddress: '123.123.2.42',
   port: '8080'
-  })
+ })
 
 // return this:
 '123.123.2.42:8080'
