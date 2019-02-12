@@ -1,12 +1,12 @@
 interface ProxyObject {
-  protocol: string;
-  ipAddress: string;
-  port: string | number;
-  ipAddressPort: string;
-  login: string;
-  password: string;
-  loginPassword: string;
-  loginPassFirst: boolean;
+  protocol?: string;
+  ipAddress?: string;
+  port?: string | number;
+  ipAddressPort?: string;
+  login?: string;
+  password?: string;
+  loginPassword?: string;
+  loginPassFirst?: boolean;
 }
 
 function proxyProtocol(proxyObject: ProxyObject): string {
