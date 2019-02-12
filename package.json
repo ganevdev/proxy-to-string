@@ -1,7 +1,7 @@
 {
   "name": "proxy-to-string",
   "version": "1.0.0",
-  "description": "Creating a proxy string",
+  "description": "Creating a proxy string from objects.",
   "keywords": [
     "proxy"
   ],
