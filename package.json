@@ -18,13 +18,13 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "compile": "npm run prebuild && npm run lint && npm run jest && npm run build",
     "prebuild": "rimraf dist",
     "build": "tsc",
+    "compile": "npm run prebuild && npm run lint && npm run jest && npm run build",
     "jest": "jest",
-    "watch": "jest --watchAll",
     "lint": "eslint --fix \"src/**/*.{ts,tsx,js,jsx}\"",
-    "pretty": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json}\""
+    "pretty": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json}\"",
+    "watch": "jest --watchAll"
   },
   "dependencies": {
     "@types/node": "^10.12.24",
