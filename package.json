@@ -1,6 +1,6 @@
 {
   "name": "proxy-to-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creating a proxy string from objects.",
   "keywords": [
     "proxy"
@@ -26,12 +26,11 @@
     "pretty": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json}\"",
     "watch": "jest --watchAll"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@types/node": "^10.12.24",
     "ts-node": "^8.0.2",
-    "typescript": "^3.3.3"
-  },
-  "devDependencies": {
+    "typescript": "^3.3.3",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-typescript": "^7.1.0",
     "@types/jest": "^24.0.0",
